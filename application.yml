@@ -10,4 +10,6 @@ eureka:
     service-url:
       defaultZone: ${EUREKA_CLIENT_SERVICE_URL_DEFAULTZONE:http://discovery:8761/eureka}
   instance:
-    hostname: ${EUREKA_INSTANCE:localhost}
+    prefer-ip-address: true
+    
+
